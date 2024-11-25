@@ -1,0 +1,6 @@
+streamlit
+streamlit-webrtc
+torch
+torchvision
+pillow
+numpy
