@@ -7,7 +7,7 @@ import numpy as np
 # Load the trained model
 @st.cache_resource
 def load_model():
-    model = torch.load('/Users/anody/Downloads/fish_model.pth', map_location=torch.device('cpu'))  # Adjust path if needed
+    model = torch.load('fish_model.pth', map_location=torch.device('cpu'))  # Adjust path if needed
     model.eval()  # Set to evaluation mode
     return model
 
